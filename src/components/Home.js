@@ -1,9 +1,16 @@
 import React from "react";
-import { name, city } from "../data/data.js";
+import NavBar from "./NavBar";
+import Home from "./Home";
+import About from "./About";
 
-function Home() {
-  // update the JSX being returned!
-  return <div>Home</div>;
+function App() {
+  return (
+    <div>
+      <NavBar />
+      <Home />
+      <About />
+    </div>
+  );
 }
 
-export default Home;
+export default App;
